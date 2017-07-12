@@ -39,3 +39,10 @@ Each annotation has a confidence number from 0.0 to 1.0 assigned. The human anno
 
 ## Possible Improvement
 Fine tune the model with precisely human image-level annotations dataset. 
+
+## Reference
+1. [Rethinking the Inception Architecture for Computer Vision]("https://arxiv.org/pdf/1512.00567.pdf")
+
+2. [Open Images Dataset]("https://github.com/openimages/dataset")
+
+3. [Must Know Tips/Tricks in Deep Neural Networks]("http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html")
