@@ -12,17 +12,24 @@ Tensorflow, Python
 
     python tools/classify.py --n 8 sample.jpg 
   
-    ...
+    ![sample image](https://github.com/ZixuanLiang/image_multilabel/blob/master/sample.jpg "sample image")
     
     Output:
     
     4119: /m/06ntj - sports (score = 0.81)
+  
     3082: /m/03x045 - team sport (score = 0.26)
+    
     1329: /m/020m7t - ball game (score = 0.24)
+    
     2268: /m/02vzx9 - player (score = 0.10)
+    
     5919: /m/0n68_ - structure (score = 0.07)
+    
     4840: /m/0bmgjqz - sport venue (score = 0.07)
+    
     132: /m/01445t - athlete (score = 0.07)
+    
     76: /m/012sbd - tournament (score = 0.07)
     
 ## How does the code work
