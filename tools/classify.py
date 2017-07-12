@@ -1,36 +1,3 @@
-#!/usr/bin/env python
-#
-# Copyright 2016 The Open Images Authors. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-# ==============================================================================
-#
-# This script takes an Inception v3 checkpoint, runs the classifier
-# on the image and prints top(n) predictions in the human-readable form.
-# Example:
-#   $ wget -O /tmp/cat.jpg https://farm6.staticflickr.com/5470/9372235876_d7d69f1790_b.jpg
-#   $ ./tools/classify.py /tmp/cat.jpg
-#   5723: /m/0jbk - animal (score = 0.94)
-#   3473: /m/04rky - mammal (score = 0.93)
-#   4605: /m/09686 - vertebrate (score = 0.91)
-#   1261: /m/01yrx - cat (score = 0.90)
-#   3981: /m/068hy - pet (score = 0.87)
-#   841: /m/01l7qd - whiskers (score = 0.83)
-#   2430: /m/0307l - cat-like mammal (score = 0.78)
-#   4349: /m/07k6w8 - small to medium-sized cats (score = 0.75)
-#   2537: /m/035qhg - fauna (score = 0.47)
-#   1776: /m/02cqfm - close-up (score = 0.45)
-#
 # Make sure to download the ANN weights and support data with:
 # $ ./tools/download_data.sh
 
